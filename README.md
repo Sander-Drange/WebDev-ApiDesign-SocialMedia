@@ -1,13 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nHPSu_dn)
 
-kandisdatnr: 
-	29
-
-Heroku:
-https://postify-web-app-734ef4098d58.herokuapp.com/
-
-Giyhub repo:
-https://github.com/kristiania-pg6301-2023/pg6301-reexam-Sander-Drange 
 
 ## Functional Requirements
 
