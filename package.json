@@ -1,0 +1,30 @@
+{
+   "name": "pg6301-reexam-sander-drange",
+   "version": "1.0.0",
+   "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/nHPSu_dn)",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+      "dev:client": "cd client && npx vite",
+      "dev:server": "cd server && npm run dev",
+      "format": "prettier --write .",
+      "format:check": "prettier --check .",
+      "heroku-postbuild": "cd client && npm install && npm run build && cd ../server && npm install",
+      "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+      "start:client": "cd client && npm run build && npx serve -s dist",
+      "start:server": "cd server && node server.js"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "concurrently": "^9.1.2",
+      "express": "^4.21.2",
+      "prettier": "3.5.1",
+      "react-router-dom": "^7.1.5"
+   },
+   "engines": {
+      "node": "18.x"
+   }
+}
